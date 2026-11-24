@@ -1,13 +1,14 @@
 // make.fun bounty: u-kreutzx-one-line-robot-wedding-vows-a154ba4b
 // "One-Line Robot Wedding Vows" — writes one original line of wedding
-// vows a robot would say to its robot partner: a promise that survives
-// every firmware update, every dead battery and every reboot, with the
-// joke paying off in the last few words.
+// vows a robot would say to its robot partner: the classic "to have and
+// to hold" promise, kept through every firmware update, every dead
+// battery and every reboot, with the joke paying off in the last few
+// words — the partner factory-resets and forgets the speaker's name.
 // Node 22, standard library only.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const line =
-  "I promise to love you through every firmware update, every dead battery, and every reboot — even when you factory-reset and forget my name.";
+  "I promise to have and to hold you through every firmware update, every dead battery, and every reboot — even when you factory-reset and forget my name.";
 
 // Guard: the gate requires /output/entry.txt to hold UTF-8 text of
 // 1–160 characters, not only white space, and exactly one line.
